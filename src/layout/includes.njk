@@ -1,0 +1,23 @@
+---
+title: an _includes demo
+layout: 'base.njk'
+---
+
+<main class="content">
+    <h1>_includes demo</h1>
+    {% include 'demo.njk' %}
+    <p>The title of this page is: <code>{{ title }}</code></h1>
+        <p>List of files with the tag "markdown":</p>
+    <ul>
+        {# pipes collections.markdown into `reverse` filter in order to view those with the newest dates first #}
+        {%- for file in collections.markdown | reverse -%}
+        <li>
+            <time>{{ file.date | formattedDate }}</time>
+            <h2>{{ file.data.title }}</h2>
+            <p>{{ file.data.description }}</p>
+            <a href="{{ file.url }}">View</a>
+        </li>
+        {%- endfor -%}
+    </ul>
+
+</main>

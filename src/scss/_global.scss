@@ -1,0 +1,21 @@
+:root {
+    --clr-bg: #282828;
+    --clr-txt: #e0e0e0;
+    --clr-accent: #8fb0f0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*:focus-visible {
+    outline: 4px solid var(--clr-accent);
+}
+
+::selection {
+    background-color: var(--clr-txt);
+    color: var(--clr-bg);
+}
+

@@ -1,0 +1,39 @@
+@import 'global';
+@import 'components/font';
+@import 'components/header';
+
+body {
+    margin: 0;
+    background-color: var(--clr-bg);
+    color: var(--clr-txt);
+    font-family: "Public Sans", sans-serif;
+    min-height: 100vh;
+}
+
+h1 {
+    font-style: italic;
+}
+
+a {
+    font-weight: bold;
+    color: var(--clr-accent);
+}
+
+img {
+    max-width: 100%;
+}
+
+.content {
+    max-width: 1000px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+ul li {
+    margin-top: 3rem;
+}
+
+/* because *text* in markdown becomes <em>text</em> when compiled */
+em {
+    color: coral;
+}
