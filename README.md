@@ -3,10 +3,10 @@
 
 ## Get started:
 
-Clone the project through your preferred method
+1. Clone the project through your preferred method
 
-Run `npm install`, then `npm run watch:sass` and `npm run watch:eleventy`
+2. Run `npm install`, then `npm run watch:sass` and `npm run watch:eleventy`
 
-Start editing
+3. Start editing
 
 Note: if you edit `.eleventy.js`, you'll have to restart eleventy.
