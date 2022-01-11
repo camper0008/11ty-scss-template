@@ -10,3 +10,5 @@
 3. Start editing
 
 Note: if you edit `.eleventy.js`, you'll have to restart eleventy.
+
+[View template output on Netlify](https://camper0008-11ty-scss-template.netlify.app/includes/)
