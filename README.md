@@ -5,7 +5,7 @@
 
 1. Clone the project through your preferred method
 
-2. Run `npm install`, then `npm run watch:sass` and `npm run watch:eleventy`
+2. Run `npm install`, then `npm run watch:sass` and `npm run watch:11ty`
 
 3. Start editing
 
